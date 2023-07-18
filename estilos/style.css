@@ -3,6 +3,7 @@
     font-size: 16px;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 body{
     background-color: bisque;
@@ -11,10 +12,35 @@ body{
 }
 
 main{
+    padding: 20px;
     background-color: white;
     width: 500px;
     margin: 30px auto;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
 
 
+}
+
+h1,h2{
+    font-size: 1.3em;
+    border-bottom: 1px solid black;
+}
+
+h1,h2,p{
+    
+    padding: 10px;
+    text-align: center;
+}
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.lado{
+    float: right;
+}
+
+img{
+    margin-left: 10px;
+    width: 100px;
 }
